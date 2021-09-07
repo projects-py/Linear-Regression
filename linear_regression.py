@@ -1,14 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
 
 # importing numpy library
 import numpy as np
 
 
-# In[4]:
 
 
 class Linear_Regression():
@@ -58,10 +52,6 @@ class Linear_Regression():
     def predict(self, X):
 
         return X.dot(self.w) + self.b
-
-
-# In[ ]:
-
 
 
 
